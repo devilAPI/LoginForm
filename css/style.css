@@ -1,0 +1,93 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: roboto;
+   box-sizing: border-box;
+}
+
+.main-container{
+   width: 100%;
+   height: 100vh;
+   background: rgb(238, 238, 238);
+}
+
+.center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Login-box{
+   width: 320px;
+   height: 500px;
+   background: linear-gradient(to left, #4dcfdf, #01bdd6);
+   box-shadow: 0px 0px 20px #dadadae3;
+}
+
+.box1{
+   width: 100%;
+   height: 140px;
+   flex-direction: column;
+   color: #fff;
+
+}
+
+h4{
+   font-size: 35px;
+   font-weight: 300;
+   margin: 35px 0px 8px 0px;
+}
+
+p{
+   font-size: 14px;
+   font-weight: 300;
+}
+
+.box2{
+   width: 100%;
+   height: 360px;
+   background: #fff;
+   border-top-right-radius: 45px;
+   border-top-left-radius: 45px;
+   padding: 20px;
+
+}
+
+.input{
+   width: 100%;
+   height: 45px;
+   border: none;
+   border-bottom: 1px solid #e4e4e4;
+   padding: 0px 10px;
+   margin: 5px 0px;
+   outline: none;
+   cursor: pointer;
+   color: #616060;
+}
+
+.Submit-box a{
+   text-decoration: none;
+   color: rgb(112, 112, 112);
+   font-size: 13px;
+   display: block;
+   text-align: center;
+   margin: 25px 0px;
+   cursor: pointer;
+}
+.Submit-box a:hover{
+   color: #01bdd6;
+}
+
+.btn{
+   width: 100%;
+   padding: 12px 0px;
+   border: none;
+   background: linear-gradient(to left, #4dcfdf, #01bdd6);
+   color: #fff;
+   outline: none;
+   border-radius: 6px;
+   cursor: pointer;
+}
+.btn:hover{
+   background: linear-gradient(to left, #01bdd6, #4dcfdf);
+}
